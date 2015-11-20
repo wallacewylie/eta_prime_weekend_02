@@ -4,7 +4,11 @@ Hello Primers!
 
 Welcome to your second weekend challenge!
 
-When pulling down this file, open it up in Webstorm and run 'npm install' in the terminal. Don't forget to test the application, you will need to enter 'npm start' (as defined in the package.json file). To shut down a server, hold down control and press 'C'. 
+When pulling down this file, open it up in Webstorm and run 'npm install' in the terminal. 
+
+Don't forget, to test an application with a node server, you will need to enter 'npm start' (as defined in the package.json file). 
+
+To shut down a server, hold down control and press 'C'. 
 
 I created a new JSON data file, inside it, you will find an array of objects. Each object, is each one of you. It includes your name, your github profile link, and a piece of shoutout feedback from your peers! Awesome right?
 
