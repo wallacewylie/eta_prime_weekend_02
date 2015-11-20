@@ -39,7 +39,7 @@ A mockup of the above is available [here](https://docs.google.com/drawings/d/10A
 You will need to combine everything you learned this week to accomplish this task, and each of the challenges you have completed this week play a part in this task. 
 
 ###HARD MODE
-Include a fade out and fade in animation in-between transitioning people.
+Include a fade out and fade in animation in-between transitioning people using [jQuery effects](http://api.jquery.com/category/effects).
 
 ###PRO MODE
 Include a timer that moves to the next person if the user is not clicking on next or prev. If the user clicks on next or prev, the timer should be reset. The timer should transition between people every 10 seconds. 
