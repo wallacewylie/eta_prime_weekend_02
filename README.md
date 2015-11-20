@@ -5,15 +5,18 @@ Hello Primers!
 Welcome to your second weekend challenge!
 
 ## Working with Node
+
 ### Prerequisites
 1. XCode: Open the Mac App Store and install XCode. https://itunes.apple.com/us/app/xcode/id497799835?mt=12
 2. Homebrew: Homebrew is a package manager for Mac. http://brew.sh/ To install it paste the following at a terminal prompt:
  `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+
 ### Install Node
 1. Open the Terminal app and type `brew install node`
 2. Sit back and wait.
 3. After installation type `node -v` and if you get a version number, Node is installed!
 4. Type `npm -v` to make sure npm is installed.
+
 ### Starting this Assignment
 After pulling down this repo, open it up in your editor.
 
