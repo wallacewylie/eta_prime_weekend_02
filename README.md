@@ -5,11 +5,25 @@ Hello Primers!
 Welcome to your second weekend challenge!
 
 ## Working with Node
-When pulling down this file, open it up in Webstorm and run 'npm install' in the terminal. 
+### Prerequisites
+1. XCode: Open the Mac App Store and install XCode. https://itunes.apple.com/us/app/xcode/id497799835?mt=12
+2. Homebrew: Homebrew is a package manager for Mac. http://brew.sh/ To install it paste the following at a terminal prompt:
+ `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+### Install Node
+1. Open the Terminal app and type `brew install node`
+2. Sit back and wait.
+3. After installation type `node -v` and if you get a version number, Node is installed!
+4. Type `npm -v` to make sure npm is installed.
+### Starting this Assignment
+After pulling down this repo, open it up in your editor.
 
-Don't forget, to test an application with a node server, you will need to enter 'npm start' (as defined in the package.json file). 
+Then go to your terminal. `cd` into the directory and run `npm install`.
 
-To shut down a server, hold down control and press 'C'. 
+After install is completed, enter `npm start`. This will run the server in your terminal.
+
+To shut down the server, hold down control and press `C`.
+
+IMPORTANT: Do not close your terminal while the server is running! Shut it down, then close it.
 
 ## Challenge Details
 I created a new JSON data file, inside it, you will find an array of objects. Each object is each one of you. 
