@@ -54,7 +54,7 @@
                 },
                 {
                     "movieName": "Serenity",
-                    "releaseYear": "2005"
+                    "releaseYear": 2005
                 }
             ]
         },
@@ -66,15 +66,15 @@
                 "Spaghetti",
                 "steak"
             ],
-            "hotLineBling": "false",
+            "hotLineBling": false,
             "favoriteMovies": [
                 {
-                    "movieName": "Kung fu Panda",
-                    "releaseYear": "2008"
+                    "movieName": "Kung Fu Panda",
+                    "releaseYear": 2008
                 },
                 {
                     "movieName": "21 Jump Street",
-                    "releaseYear": "2012"
+                    "releaseYear": 2012
                 }
             ]
         },
@@ -89,18 +89,44 @@
                 "potatoes"
             ],
             "hotLineBling": true,
-            "favorite Movies": [
+            "favoriteMovies": [
                 {
                     "movieName": "Lock, Stock & Two Smoking Barrels",
-                    "releaseYear": "1998"
+                    "releaseYear": 1998
                 },
                 {
                     "movieName": "Office Space",
-                    "releaseYear": "1999"
+                    "releaseYear": 1999
                 },
                 {
                     "movieName": "Monty Python & The Holy Grail",
-                    "releaseYear": "1975"
+                    "releaseYear": 1975
+                }
+            ]
+        },
+        {
+            "firstName": "Ashley",
+            "lastName": "Steele",
+            "favoriteFoods": [
+                "oatmeal",
+                "pizza",
+                "nachaos",
+                "black bean soup",
+                "potatoes"
+            ],
+            "hotLineBling": true,
+            "favoriteMovies": [
+                {
+                    "movieName": "Sex And The City",
+                    "releaseYear": 2008
+                },
+                {
+                    "movieName": "American Gangster",
+                    "releaseYear": 2007
+                },
+                {
+                    "movieName": "Houseguest",
+                    "releaseYear": 1995
                 }
             ]
         },
@@ -113,26 +139,26 @@
                 "Pulled Pork"
             ],
             "hotLineBling": false,
-            "favoriteFilms": [
+            "favoriteMovies": [
                 {
                     "movieName": "Aliens",
-                    "releaseYear": "1986"
+                    "releaseYear": 1986
                 },
                 {
-                    "movieName": "The Bleus Brothers",
-                    "releaseYear": "1981"
+                    "movieName": "The Blues Brothers",
+                    "releaseYear": 1981
                 }
             ]
         },
         {
-            "firstName": "Greatest",
-            "lastName": "Ever",
+            "firstName": "Brandi",
+            "lastName": "Brouwn",
             "favoriteFoods": [
                 "mac and cheese",
                 "just cheese",
                 "cookie butter"
             ],
-            "hotLineBling": "true",
+            "hotLineBling": true,
             "favoriteMovies": [
                 {
                     "movieName": "Clueless",
@@ -148,9 +174,20 @@
             "firstName": "Charlotte",
             "lastName": "Kroening",
             "favoriteFoods": "[spaghetti, Chinese food, strawberries, chocolate]",
-            "hotLineBling": "false",
-            "favoriteMovies": "[{movieName:Good Will Hunting, releaseYear: 1997}, {movieName:Rocketman, releaseYear:1997}]"
+            "hotLineBling": false,
+            "favoriteMovies": [
+            {
+                "movieName": "Good Will Hunting",
+                "releaseYear": 1997
+             }, 
+            {
+                "movieName" : "Rocketman", 
+                "releaseYear": 1997
+            }
+        
+        ]
         },
+        
         {
             "firstName": "Chris",
             "lastName": "Arnesen",
@@ -163,15 +200,15 @@
             "favoriteMovies": [
                 {
                     "movieName": "Star Wars",
-                    "releaseYear": "1977"
+                    "releaseYear": 1977
                 },
                 {
                     "movieName": "Empire Strikes Back",
-                    "releaseYear": "1980"
+                    "releaseYear": 1980
                 },
                 {
                     "movieName": "Return of the Jedi",
-                    "releaseYear": "1981"
+                    "releaseYear": 1983
                 }
             ]
         },
@@ -199,7 +236,7 @@
                 },
                 {
                     "movieName": "Star Wars",
-                    "releaseYears": "1977-1983"
+                    "releaseYear": 1977
                 }
             ]
         },
@@ -239,17 +276,17 @@
             "favoriteMovies": [
                 {
                     "movieName": "Top Gun",
-                    "releaseYear": "1986"
+                    "releaseYear": 1986
                 },
                 {
                     "movieName": "Jurassic Park",
-                    "releaseYear": "1993"
+                    "releaseYear": 1993
                 }
             ]
         },
         {
-            "firstName": "gwen",
-            "lastName": "paul",
+            "firstName": "Gwen",
+            "lastName": "Paul",
             "favoriteFoods": [
                 "steak",
                 "icecream",
@@ -259,12 +296,12 @@
             "hotLineBling": false,
             "favoriteMovies": [
                 {
-                    "movieName": "knocked up",
-                    "releaseYear": "2007"
+                    "movieName": "Knocked Up",
+                    "releaseYear": 2007
                 },
                 {
-                    "movieName": "the town",
-                    "releaseYear": "2010"
+                    "movieName": "The Town",
+                    "releaseYear": 2010
                 }
             ]
         },
@@ -272,7 +309,7 @@
             "firstName": "James",
             "lastName": "Kirwin",
             "favoriteFood": "['enchiladas', 'pizza', 'Mac and Cheese']",
-            "hotLineBling": "false",
+            "hotLineBling": false,
             "favoriteMovies": [
                 {
                     "movieName": "Fifth Element",
@@ -296,15 +333,15 @@
             "favoriteMovies": [
                 {
                     "movieName": "The Big Lebowski",
-                    "releaseYear": "1998"
+                    "releaseYear": 1998
                 },
                 {
                     "movieName": "The Royal Tenenbaums",
-                    "releaseYear": "2001"
+                    "releaseYear": 2001
                 },
                 {
                     "movieName": "Dumb and Dumber",
-                    "releaseYear": "1994"
+                    "releaseYear": 1994
                 }
             ]
         },
@@ -321,16 +358,16 @@
             "hotLineBling": true,
             "favoriteMovies": [
                 {
-                    "title": "Hunger Games",
-                    "year": 2012
+                    "movieName": "Hunger Games",
+                    "releaseYear": 2012
                 },
                 {
-                    "title": "Interstellar",
-                    "year": 2014
+                    "movieName": "Interstellar",
+                    "releaseYear": 2014
                 },
                 {
-                    "title": "Princess Mononoke",
-                    "year": 1997
+                    "movieName": "Princess Mononoke",
+                    "releaseYear": 1997
                 }
             ]
         },
@@ -342,15 +379,15 @@
                 "gyros",
                 "sushi"
             ],
-            "hotLineBling": "true",
+            "hotLineBling": true,
             "favoriteMovies": [
                 {
                     "movieName": "Trainwreck",
-                    "releaseDate": "2015"
+                    "releaseYear": 2015
                 },
                 {
                     "movieName": "Anchorman",
-                    "releaseDate": "2004"
+                    "releaseYear": 2004
                 }
             ]
         },
@@ -383,7 +420,7 @@
                 "Guava",
                 "Green Curry"
             ],
-            "hotLineBling": "true",
+            "hotLineBling": true,
             "favoriteMovies": [
                 {
                     "movieName": "Apocolypse Now",
@@ -419,13 +456,16 @@
             "hotLineBling": true,
             "favoriteMovies": [
                 {
-                    "movie1": "300"
+                    "movieName": "300",
+                    "releaseYear": 2006
                 },
                 {
-                    "movie2": "The Town"
+                    "movieName": "The Town",
+                    "releaseYear": 2010
                 },
                 {
-                    "movie3": "GrandmasBoy"
+                    "movieName": "Grandma's Boy",
+                    "releaseYear": 2006
                 }
             ]
         },
@@ -438,49 +478,52 @@
                 "Andouille Sausage",
                 "Mac & Dogs (when I'm lazy)"
             ],
-            "hotLineBling": "False",
+            "hotLineBling": false,
             "favoriteMovies": [
                 {
                     "movieName": "Suspiria",
-                    "releaseYear": "1977"
+                    "releaseYear": 1977
                 },
                 {
                     "movieName": "The Wicker Man",
-                    "releaseYear": "1973"
+                    "releaseYear": 1973
                 },
                 {
                     "movieName": "The Thing",
-                    "releaseYear": "1982"
+                    "releaseYear": 1982
                 },
                 {
                     "movieName": "Repo Man",
-                    "releaseYear": "1984"
+                    "releaseYear": 1984
                 }
             ]
         },
         {
             "firstName": "Wallace",
             "lastName": "Wylie",
-            "favouriteFoods": [
+            "favoriteFoods": [
                 "Pizza",
                 "Vegetable Curry",
                 "Mock Duck With Rice From Quang"
             ],
             "hotLineBline": true,
-            "favouriteMovies": [
+            "favoriteMovies": [
                 {
-                    "i": "Wings Of Desire",
-                    "ii": 1987
+                    "movieName": "Wings Of Desire",
+                    "releaseYear": 1987
                 },
                 {
-                    "i": "Crimes And Misdemeanors",
-                    "ii": 1989
+                    "movieName": "Crimes And Misdemeanors",
+                    "releaseYear": 1989
                 },
                 {
-                    "i": "Local Hero",
-                    "ii": 1983
+                    "movieName": "Local Hero",
+                    "releaseYear": 1983
                 }
+            
+                
             ]
+        
         }
     ]
 }

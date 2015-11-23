@@ -1,13 +1,44 @@
 <!DOCTYPE html>
 <html>
-    <head lang="en">
-        <meta charset="UTF-8">
-        <title></title>
-        <link rel="stylesheet" href="/styles/style.css">
-	<script type="text/javascript" src="/vendors/handlebars.js"></script>
-        <script type="text/javascript" src="/scripts/app.js"></script>
+    <head lang='en'>
+        <meta charset='UTF-8'>
+        <title>The Eta Files</title>
+        <link rel='stylesheet' href='/styles/style.css'>
+	<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.min.js'></script>
+	 <script src='https://code.jquery.com/jquery-1.11.3.min.js'></script>
+        <script type='text/javascript' src='/scripts/app.js'></script>
     </head>
     <body>
+         <header><h1>The Eta Files</h1></header>
+           
+             <div class='primePeople'>
+		<script id='coders' type='text/x-handlebars-template'>
+	        <div class='primename'>
+			<p><h1>{{firstName}} {{lastName}}</h1></p>
+             </div>
+             <div class='movies'>
+			     {{#each favoriteMovies}}
+			 
+             <div class='movienames'>{{movieName}} ({{releaseYear}})</div>
+             {{/each}}
+             </div>
+             </script>
+             </div>
+             <div class='primelButtons'>
+             <script id='leftbutton' type='text/x-handlebars-template'>
+             <div class='left'>
+	        <button class='lbutton'>< {{firstName}} {{lastName}}</button>
+	        </div>
+	             </script>
+	        </div>
+	        <div class='primerButtons'>
+             <script id='rightbutton' type='text/x-handlebars-template'>
+             <div class='right'>
+		      <button class='rbutton'>{{firstName}} {{lastName}} ></button>
+		      </div>
+
+		</script>
+        </div>
     </body>
 
 </html>

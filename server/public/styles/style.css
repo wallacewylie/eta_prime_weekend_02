@@ -1,0 +1,65 @@
+* {
+	
+	margin: 5px;
+	
+}
+
+body {
+background-image: url("Hollywood.jpg");
+color: orange;
+
+}
+
+header h1 {
+	border-style: solid;
+	border-radius: 20px;
+	border-color: #000;
+	text-align: center;
+	border-color: orange;
+}
+
+
+.right {
+	float: right;
+	border: #300;
+	border-style: solid;
+	clear: right;
+}
+
+.left {
+	float: left;
+	border: #300;
+	border-style: solid;
+	clear: left;
+}
+
+.primename{
+	text-align: center;
+	border: #300;
+	border-style: solid;
+	padding: 100px 0 0 0;
+	border-color: orange;
+}
+
+p {
+	border: solid;
+}
+
+.movies {
+	height: 200px;
+    width: 600px;
+    margin: auto;
+    padding: 200px 0 0 0;
+}
+
+.movienames {
+	display: inline;
+	width: 50%;
+  margin: auto;
+
+}
+
+.lbutton .rbutton {
+	border: #300;
+	border-style: solid;
+}
